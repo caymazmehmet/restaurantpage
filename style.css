@@ -269,3 +269,73 @@ html {
 .last .container .last-right #rating {
   width: 300px;
 }
+.services .container {
+  height: 100vh;
+  padding-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services .container .left-service #firstp-services {
+  color: red;
+  padding-bottom: 53px;
+}
+.services .container .left-service .service-title {
+  width: 380px;
+}
+.services .container .left-service .secondp-services {
+  width: 380px;
+  padding-top: 50px;
+}
+.services .container .left-service button {
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background-color: #39db4a;
+  border: 2px solid transparent;
+  margin-top: 50px;
+}
+.services .container .left-service button:hover {
+  background-color: white;
+  color: #39db4a;
+  border: 2px solid #39db4a;
+}
+.services .container .right-service img {
+  width: 40px;
+}
+.right-service {
+  display: flex;
+  gap: 20px;
+}
+.right-service .firstrow .card-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.71);
+  border-radius: 30px;
+  gap: 20px;
+}
+.right-service .secondrow .card-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.71);
+  border-radius: 30px;
+  gap: 20px;
+  padding: 15px 20px;
+}
